@@ -1,0 +1,10 @@
+.hero {
+  @include flex(center, center);
+  color: #fff;
+  text-align: center;
+  min-height: 70vh;
+
+  h1 {
+    font-size: 4rem;
+  }
+}
