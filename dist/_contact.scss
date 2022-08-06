@@ -1,0 +1,24 @@
+.contact {
+  margin: 0 0 2rem;
+  font-family: $primaryFont;
+
+  form {
+    @include flex(center, center);
+    flex-direction: column;
+
+    label {
+      @include flex(center, center);
+      flex-direction: column;
+      margin: 2rem 0;
+
+      input,
+      textarea {
+        font-family: $primaryFont;
+      }
+    }
+
+    button {
+      font-family: $primaryFont;
+    }
+  }
+}

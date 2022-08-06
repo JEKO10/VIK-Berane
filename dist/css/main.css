@@ -148,6 +148,49 @@ footer h1 {
   font-weight: 600;
 }
 
+.contact {
+  margin: 0 0 2rem;
+  font-family: "Titillium Web", sans-serif;
+}
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 0;
+}
+.contact form label input,
+.contact form label textarea {
+  font-family: "Titillium Web", sans-serif;
+}
+.contact form button {
+  font-family: "Titillium Web", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
