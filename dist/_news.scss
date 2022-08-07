@@ -1,0 +1,37 @@
+.news {
+  max-width: $maxWidth;
+  margin: 1.5rem auto 3rem;
+  font-family: $primaryFont;
+  min-height: 70vh;
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  p {
+    margin: 2rem 0;
+    font-size: 1.7rem;
+  }
+
+  button {
+    font-family: $primaryFont;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+    margin-top: 1.5rem;
+    background-color: $primaryColor;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid $primaryColor;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms ease;
+
+    &:hover {
+      background: none;
+      color: $primaryColor;
+      border: 2px solid $primaryColor;
+    }
+  }
+}

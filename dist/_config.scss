@@ -2,6 +2,7 @@
 
 $primaryFont: "Titillium Web", sans-serif;
 $primaryColor: #009cd4;
+$maxWidth: 80vw;
 
 @mixin flex($justify, $align) {
   display: flex;

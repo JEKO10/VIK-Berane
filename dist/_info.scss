@@ -3,7 +3,8 @@
   flex-direction: column;
   text-align: center;
   font-family: $primaryFont;
-  margin-top: 1.5rem;
+  max-width: $maxWidth;
+  margin: 1.5rem auto 2rem;
 
   > h1 {
     font-size: 4rem;

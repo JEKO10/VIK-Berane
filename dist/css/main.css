@@ -80,7 +80,8 @@ nav ul li a {
           flex-direction: column;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
-  margin-top: 1.5rem;
+  max-width: 80vw;
+  margin: 1.5rem auto 2rem;
 }
 .info > h1 {
   font-size: 4rem;
@@ -151,6 +152,8 @@ footer h1 {
 .contact {
   margin: 0 0 2rem;
   font-family: "Titillium Web", sans-serif;
+  max-width: 80vw;
+  margin: 0 auto 3rem;
 }
 .contact form {
   display: -webkit-box;
@@ -189,6 +192,41 @@ footer h1 {
 }
 .contact form button {
   font-family: "Titillium Web", sans-serif;
+}
+
+.news {
+  max-width: 80vw;
+  margin: 1.5rem auto 3rem;
+  font-family: "Titillium Web", sans-serif;
+  min-height: 70vh;
+}
+.news h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.news p {
+  margin: 2rem 0;
+  font-size: 1.7rem;
+}
+.news button {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  margin-top: 1.5rem;
+  background-color: #009cd4;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #009cd4;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.news button:hover {
+  background: none;
+  color: #009cd4;
+  border: 2px solid #009cd4;
 }
 
 * {

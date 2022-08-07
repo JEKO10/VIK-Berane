@@ -1,6 +1,8 @@
 .contact {
   margin: 0 0 2rem;
   font-family: $primaryFont;
+  max-width: $maxWidth;
+  margin: 0 auto 3rem;
 
   form {
     @include flex(center, center);
