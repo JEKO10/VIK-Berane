@@ -1,26 +1,62 @@
 .contact {
-  margin: 0 0 2rem;
-  font-family: $primaryFont;
   max-width: $maxWidth;
-  margin: 0 auto 3rem;
+  margin: 1rem auto 3rem;
+  min-height: 70vh;
+  font-family: $primaryFont;
 
   form {
     @include flex(center, center);
     flex-direction: column;
 
+    > div {
+      @include flex(space-around, flex-start);
+      width: 100%;
+    }
+
     label {
       @include flex(center, center);
       flex-direction: column;
-      margin: 2rem 0;
+      margin: 1rem 0;
+      font-size: 2rem;
 
       input,
       textarea {
         font-family: $primaryFont;
+        font-size: 1.5rem;
+        padding: 5px 15px;
+        margin-top: 1rem;
+        resize: vertical;
+      }
+
+      textarea {
+        max-width: 100%;
       }
     }
 
     button {
       font-family: $primaryFont;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      padding: 5px 20px;
+      margin-top: 1.5rem;
+      background-color: $primaryColor;
+      color: #fff;
+      font-weight: 600;
+      border: 2px solid $primaryColor;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 500ms ease;
+
+      &:hover {
+        background: none;
+        color: $primaryColor;
+        border: 2px solid $primaryColor;
+      }
     }
+  }
+
+  iframe {
+    width: 100%;
+    margin: 5rem auto 3rem;
   }
 }

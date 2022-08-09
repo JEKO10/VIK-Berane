@@ -150,10 +150,10 @@ footer h1 {
 }
 
 .contact {
-  margin: 0 0 2rem;
-  font-family: "Titillium Web", sans-serif;
   max-width: 80vw;
-  margin: 0 auto 3rem;
+  margin: 1rem auto 3rem;
+  min-height: 70vh;
+  font-family: "Titillium Web", sans-serif;
 }
 .contact form {
   display: -webkit-box;
@@ -170,6 +170,17 @@ footer h1 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.contact form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
 .contact form label {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,14 +195,43 @@ footer h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  font-size: 2rem;
 }
 .contact form label input,
 .contact form label textarea {
   font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem;
+  padding: 5px 15px;
+  margin-top: 1rem;
+  resize: vertical;
+}
+.contact form label textarea {
+  max-width: 100%;
 }
 .contact form button {
   font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  margin-top: 1.5rem;
+  background-color: #009cd4;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #009cd4;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.contact form button:hover {
+  background: none;
+  color: #009cd4;
+  border: 2px solid #009cd4;
+}
+.contact iframe {
+  width: 100%;
+  margin: 5rem auto 3rem;
 }
 
 .news {
