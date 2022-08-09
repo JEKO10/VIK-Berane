@@ -1,0 +1,33 @@
+.about {
+  max-width: 80vw;
+  margin: 1.5rem auto 5rem;
+  font-family: $primaryFont;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    p {
+      max-width: 500px;
+      font-size: initial;
+    }
+
+    #para {
+      margin-top: 1rem;
+    }
+
+    > div {
+      flex: 1;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  }
+
+  p {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+  }
+}
