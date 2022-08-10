@@ -1,12 +1,15 @@
-.contact {
+.form {
   max-width: $maxWidth;
   margin: 1rem auto 3rem;
   min-height: 70vh;
   font-family: $primaryFont;
+  @include flex(space-between, center);
+  flex-direction: column;
 
   form {
-    @include flex(center, center);
+    @include flex(space-between, center);
     flex-direction: column;
+    width: 100%;
 
     > div {
       @include flex(space-around, flex-start);
@@ -58,5 +61,14 @@
   iframe {
     width: 100%;
     margin: 5rem auto 3rem;
+  }
+
+  > div {
+    @include flex(space-between, center);
+    width: 100%;
+
+    h2 {
+      font-weight: 600;
+    }
   }
 }
