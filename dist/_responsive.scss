@@ -1,0 +1,29 @@
+@include mediaLarge {
+  .about {
+    > div {
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        max-width: initial;
+      }
+    }
+  }
+
+  .info ul li {
+    font-size: 1.3rem;
+  }
+
+  .news {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@include mediaMediumLarge {
+}
