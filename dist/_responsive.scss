@@ -26,4 +26,29 @@
 }
 
 @include mediaMediumLarge {
+  nav img {
+    height: 50px;
+  }
+
+  .info ul li#bold {
+    font-size: 1.2rem;
+  }
+
+  .news,
+  .about,
+  .form {
+    max-width: 90vw;
+  }
+}
+
+@include mediaMedium {
+  nav {
+    ul {
+      display: none;
+    }
+
+    .menuBtn {
+      display: block;
+    }
+  }
 }
