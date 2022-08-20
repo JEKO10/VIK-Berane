@@ -43,12 +43,29 @@
 
 @include mediaMedium {
   nav {
-    ul {
-      display: none;
-    }
-
     .menuBtn {
       display: block;
+    }
+
+    ul {
+      justify-content: center;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.9;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+
+      li {
+        padding: 20px;
+      }
+
+      &.hide {
+        display: none;
+      }
     }
   }
 }
