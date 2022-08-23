@@ -499,6 +499,27 @@ footer h1 {
     font-size: initial;
   }
 }
+@media screen and (max-width: 576px) {
+  .info div h2,
+.info button {
+    font-size: 1.3rem;
+  }
+  .info ul li {
+    font-size: 1.5rem;
+  }
+  .news h1 {
+    font-size: 1.6rem;
+  }
+  .news p {
+    font-size: 1.2rem;
+  }
+  .news h2 {
+    font-size: 1.3rem;
+  }
+  .news button {
+    font-size: 1.3rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;

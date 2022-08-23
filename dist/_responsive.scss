@@ -107,3 +107,34 @@
     font-size: initial;
   }
 }
+
+@include mediaMediumLow {
+  .info {
+    div h2,
+    button {
+      font-size: 1.3rem;
+    }
+
+    ul li {
+      font-size: 1.5rem;
+    }
+  }
+
+  .news {
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    button {
+      font-size: 1.3rem;
+    }
+  }
+}
