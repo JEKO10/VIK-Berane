@@ -3,6 +3,11 @@
   margin: 1.5rem auto 5rem;
   font-family: $primaryFont;
 
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
   > div {
     display: flex;
     justify-content: space-between;

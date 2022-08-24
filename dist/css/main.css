@@ -360,6 +360,10 @@ footer h1 {
   margin: 1.5rem auto 5rem;
   font-family: "Titillium Web", sans-serif;
 }
+.about h1 {
+  font-size: 3rem;
+  text-align: center;
+}
 .about > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,7 +505,7 @@ footer h1 {
 }
 @media screen and (max-width: 576px) {
   .info div h2,
-.info button {
+.info div button {
     font-size: 1.3rem;
   }
   .info ul li {
@@ -518,6 +522,48 @@ footer h1 {
   }
   .news button {
     font-size: 1.3rem;
+  }
+  .about h1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero h1,
+.info > h1 {
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+  .info ul {
+    margin: 2rem 0;
+  }
+  .info ul li {
+    font-size: 1.3rem;
+  }
+  .news h1 {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .news p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .news h2 {
+    font-size: 1.1rem;
+  }
+  .form form {
+    margin-bottom: 3rem;
+  }
+  .form div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .form div h2 {
+    margin: 1rem 0;
   }
 }
 * {
