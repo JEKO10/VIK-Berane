@@ -7,3 +7,11 @@ menuBtn.addEventListener("click", () => {
   navList.classList.toggle("hide");
   document.body.classList.toggle("hidden");
 });
+
+const submit = document.querySelector("#submit");
+const message = document.querySelector("#message");
+
+submit.addEventListener("click", (e) => {
+  e.preventDefault();
+  message.value = "";
+});
