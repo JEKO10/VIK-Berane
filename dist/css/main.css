@@ -37,13 +37,21 @@ nav ul {
           align-items: center;
 }
 nav ul li {
-  padding: 0 10px;
   cursor: pointer;
 }
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.3rem;
+  margin: 0 10px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+nav ul li a.active {
+  border-bottom: 3px solid #009cd4;
+}
+nav ul li a:hover {
+  color: #009cd4;
 }
 nav .menuBtn {
   position: absolute;
