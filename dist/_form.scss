@@ -1,10 +1,11 @@
 .form {
   max-width: $maxWidth;
-  margin: 1rem auto 3rem;
+  margin: 0 auto;
   min-height: 70vh;
   font-family: $primaryFont;
   @include flex(space-between, center);
   flex-direction: column;
+  padding: 1rem 0 5rem;
 
   form {
     @include flex(space-between, center);

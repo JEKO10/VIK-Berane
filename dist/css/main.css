@@ -216,7 +216,7 @@ footer h1 {
 
 .form {
   max-width: 80vw;
-  margin: 1rem auto 3rem;
+  margin: 0 auto;
   min-height: 70vh;
   font-family: "Titillium Web", sans-serif;
   display: -webkit-box;
@@ -232,6 +232,7 @@ footer h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 1rem 0 5rem;
 }
 .form form {
   display: -webkit-box;
@@ -339,7 +340,7 @@ footer h1 {
   font-size: 3rem;
 }
 .news p {
-  margin: 2rem 0;
+  margin: 5rem 0;
   font-size: 1.7rem;
 }
 .news button {
@@ -385,7 +386,6 @@ footer h1 {
 }
 .about > div p {
   max-width: 500px;
-  font-size: initial;
 }
 .about > div #para {
   margin-top: 1rem;
@@ -552,11 +552,13 @@ footer h1 {
     line-height: 35px;
   }
   .news p {
-    font-size: 1.1rem;
     text-align: center;
   }
   .news h2 {
     font-size: 1.1rem;
+  }
+  .form iframe {
+    height: 450px;
   }
   .form form {
     margin-bottom: 3rem;
