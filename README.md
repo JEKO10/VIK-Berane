@@ -6,6 +6,6 @@ This site is about local water supply. It is not finished yet, and design is mos
 
 ### `HTML` `Sass` `Javascript` `GitHub Pages`
 
-## Demo
+## Website
 
-Demo site: https://vikberane.me/
+Website: https://vikberane.me/
