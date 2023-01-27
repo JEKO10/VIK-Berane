@@ -7,6 +7,12 @@
   flex-direction: column;
   padding: 1rem 0 5rem;
 
+  > a {
+    align-self: start;
+    font-size: 1.3rem;
+    padding-top: 30px;
+  }
+
   form {
     @include flex(space-between, center);
     flex-direction: column;
