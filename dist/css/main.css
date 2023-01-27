@@ -234,10 +234,25 @@ footer h1 {
           flex-direction: column;
   padding: 1rem 0 5rem;
 }
-.form > a {
+.form .doc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.form .doc a {
   -ms-flex-item-align: start;
       align-self: start;
   font-size: 1.3rem;
+  margin: 0 1rem;
   padding-top: 30px;
 }
 .form form {
@@ -562,6 +577,9 @@ footer h1 {
   }
   .news h2 {
     font-size: 1.1rem;
+  }
+  .form .doc a {
+    margin: 0;
   }
   .form iframe {
     height: 450px;

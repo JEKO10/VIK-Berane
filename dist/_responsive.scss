@@ -176,6 +176,10 @@
   }
 
   .form {
+    .doc a {
+      margin: 0;
+    }
+
     iframe {
       height: 450px;
     }
