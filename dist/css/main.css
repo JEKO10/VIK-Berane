@@ -160,21 +160,21 @@ nav .menuBtn .menuBurger.open::after {
   font-family: "Titillium Web", sans-serif;
   font-size: 1.5rem;
   letter-spacing: 2px;
-  padding: 5px 20px;
   margin-top: 1.5rem;
+  padding: 5px 20px;
   background-color: #009cd4;
-  color: #fff;
   font-weight: 600;
-  border: 2px solid #009cd4;
+  border: 3px solid #009cd4;
   border-radius: 10px;
   cursor: pointer;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
 }
-.info div button:hover {
-  background: none;
-  color: #009cd4;
-  border: 2px solid #009cd4;
+.info div button a {
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.info div button a:hover {
+  text-decoration: none;
 }
 .info ul {
   list-style: none;
@@ -233,6 +233,12 @@ footer h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1rem 0 5rem;
+}
+.form > a {
+  -ms-flex-item-align: start;
+      align-self: start;
+  font-size: 1.3rem;
+  padding-top: 30px;
 }
 .form form {
   display: -webkit-box;
