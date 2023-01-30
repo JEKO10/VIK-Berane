@@ -16,11 +16,14 @@ This site is about local water supply. It is not finished yet, and design is mos
 
 ## Project overview
 
+The website contains a home page, news, documents, about them, and a contact page. A home page contains important company information. The documents page is updated every time they need to publish something. The about page and the contact page are self-explanatory. You can contact them via email and see where they are located on Google Maps. 
+
 ## Built with
 
 - HTML
 - Sass
 - JavaScript
+- Google Maps
 - GitHub Pages
 
 ## Live preview
