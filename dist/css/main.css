@@ -194,6 +194,22 @@ nav .menuBtn .menuBurger.open::after {
 .info ul li#bold {
   font-weight: 700;
 }
+.info article {
+  border: 1px solid #000;
+  padding: 20px 30px;
+}
+.info article h2 {
+  margin-bottom: 2rem;
+}
+.info article p {
+  font-size: 1.3rem;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.info article ol li {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
 
 footer {
   display: -webkit-box;
@@ -455,8 +471,8 @@ footer h1 {
     font-size: 1.2rem;
   }
   .news,
-.about,
-.form {
+  .about,
+  .form {
     max-width: 90vw;
   }
 }
@@ -488,7 +504,7 @@ footer h1 {
     display: none;
   }
   .hero h1,
-.info > h1 {
+  .info > h1 {
     font-size: 3rem;
   }
   .info {
@@ -534,11 +550,21 @@ footer h1 {
 }
 @media screen and (max-width: 576px) {
   .info div h2,
-.info div button {
+  .info div button {
     font-size: 1.3rem;
   }
   .info ul li {
     font-size: 1.5rem;
+  }
+  .info article p {
+    font-size: 1.2rem;
+  }
+  .info article ol {
+    text-align: start;
+    list-style-type: none;
+  }
+  .info article ol li {
+    font-size: 1.2rem;
   }
   .news h1 {
     font-size: 1.6rem;
@@ -558,9 +584,29 @@ footer h1 {
 }
 @media screen and (max-width: 480px) {
   .hero h1,
-.info > h1 {
+  .info > h1 {
     font-size: 2.5rem;
     line-height: 45px;
+  }
+  .info h2 {
+    font-size: 1.2rem;
+  }
+  .info article {
+    padding: 20px;
+  }
+  .info article p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  .info article p:last-of-type {
+    margin-bottom: 1rem;
+  }
+  .info article ol {
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
+  }
+  .info article ol li {
+    font-size: 1rem;
   }
   .info ul {
     margin: 2rem 0;

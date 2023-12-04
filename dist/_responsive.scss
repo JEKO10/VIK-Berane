@@ -118,6 +118,21 @@
     ul li {
       font-size: 1.5rem;
     }
+
+    article {
+      p {
+        font-size: 1.2rem;
+      }
+
+      ol {
+        text-align: start;
+        list-style-type: none;
+
+        li {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 
   .news {
@@ -151,6 +166,32 @@
   }
 
   .info {
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    article {
+      padding: 20px;
+
+      p {
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+
+        &:last-of-type {
+          margin-bottom: 1rem;
+        }
+      }
+
+      ol {
+        list-style-type: disc;
+        margin-bottom: 0.5rem;
+
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+
     ul {
       margin: 2rem 0;
 
