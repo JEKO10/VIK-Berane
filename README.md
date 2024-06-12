@@ -8,6 +8,7 @@
 - [Project task](#project-task)
 - [Project overview](#project-overview)
 - [Built with](#built-with)
+- [Lighthouse Score](#lighthouse-score)
 - [Live preview](#live-preview)
 
 ## Project task
@@ -25,6 +26,19 @@ The website contains a home page, news, documents, about them, and a contact pag
 - JavaScript
 - Google Maps
 - GitHub Pages
+
+## Lighthouse Score
+
+![Lighthouse Score](https://github.com/JEKO10/ViK-Berane/assets/84730554/c58acf42-3d8d-4bed-8265-cf906d04a567)
+
+- **Performance**: 100
+- **Accessibility**: 100
+- **Best Practices**: 96
+- **SEO**: 90
+
+*Last updated: 6/10/2024*
+
+I continuously strive to maintain and improve these scores with each update.
 
 ## Live preview
 
