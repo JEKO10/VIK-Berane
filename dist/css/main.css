@@ -162,8 +162,10 @@ nav .menuBtn .menuBurger.open::after {
   letter-spacing: 2px;
   margin-top: 1.5rem;
   padding: 5px 20px;
+  padding: 5px 20px;
   background-color: #009cd4;
   font-weight: 600;
+  border: 3px solid #009cd4;
   border: 3px solid #009cd4;
   border-radius: 10px;
   cursor: pointer;
@@ -173,6 +175,13 @@ nav .menuBtn .menuBurger.open::after {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
+.info div button a {
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.info div button a:hover {
+  text-decoration: none;
 .info div button a:hover {
   text-decoration: none;
 }
@@ -193,6 +202,22 @@ nav .menuBtn .menuBurger.open::after {
 }
 .info ul li#bold {
   font-weight: 700;
+}
+.info article {
+  border: 1px solid #000;
+  padding: 20px 30px;
+}
+.info article h2 {
+  margin-bottom: 2rem;
+}
+.info article p {
+  font-size: 1.3rem;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.info article ol li {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -233,6 +258,27 @@ footer h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1rem 0 5rem;
+}
+.form .doc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.form .doc a {
+  -ms-flex-item-align: start;
+      align-self: start;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  padding-top: 30px;
 }
 .form > a {
   -ms-flex-item-align: start;
@@ -442,6 +488,8 @@ footer h1 {
   .news,
   .about,
   .form {
+  .about,
+  .form {
     max-width: 90vw;
   }
 }
@@ -473,6 +521,7 @@ footer h1 {
     display: none;
   }
   .hero h1,
+  .info > h1 {
   .info > h1 {
     font-size: 3rem;
   }
@@ -520,10 +569,21 @@ footer h1 {
 @media screen and (max-width: 576px) {
   .info div h2,
   .info div button {
+  .info div button {
     font-size: 1.3rem;
   }
   .info ul li {
     font-size: 1.5rem;
+  }
+  .info article p {
+    font-size: 1.2rem;
+  }
+  .info article ol {
+    text-align: start;
+    list-style-type: none;
+  }
+  .info article ol li {
+    font-size: 1.2rem;
   }
   .news h1 {
     font-size: 1.6rem;
@@ -544,8 +604,29 @@ footer h1 {
 @media screen and (max-width: 480px) {
   .hero h1,
   .info > h1 {
+  .info > h1 {
     font-size: 2.5rem;
     line-height: 45px;
+  }
+  .info h2 {
+    font-size: 1.2rem;
+  }
+  .info article {
+    padding: 20px;
+  }
+  .info article p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+  .info article p:last-of-type {
+    margin-bottom: 1rem;
+  }
+  .info article ol {
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
+  }
+  .info article ol li {
+    font-size: 1rem;
   }
   .info ul {
     margin: 2rem 0;
@@ -562,6 +643,9 @@ footer h1 {
   }
   .news h2 {
     font-size: 1.1rem;
+  }
+  .form .doc a {
+    margin: 0;
   }
   .form iframe {
     height: 450px;
